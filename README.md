@@ -41,6 +41,6 @@ parameter estimates you found). Upload this graph to your repo and
 include it in the README.md file so it can be viewed in the repo
 homepage.
 
+Insert link for R code:
 
-
-Graph: Log scale growth.png
+Graph: insert link after merging to main
