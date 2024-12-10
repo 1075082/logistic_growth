@@ -43,3 +43,4 @@ homepage.
 
 
 
+Graph: Log scale growth.png
