@@ -6,13 +6,12 @@ repo with more detailed information about the analysis. Add a section
 on the results and include the estimates for N0, r and K (mention
 which *.csv file you used).
 
-The 'experiment.csv' file contains population size data for a bacterial population in a test tube. We are interested in modelling population growth in this system, which we assume to follow logistic growth. In order to model population growth, we need the values of the parameteres: r (intrinsic growth rate), K (carrying capacity), N0 (starting population). 
+This repository contains an analysis aimed at modelling bacterial population growth. The data in the 'experiment.csv' file includes measurements of the population size of _E.coli_ in a test tube over time. Population growth here is assumed to follow the logistic growth model, where growth is initially exponential, but slows down as the population size approaches the carrying capacity. 
+
+Modelling logistic growth requires us to estimate 3 key population parameters: the starting population size (N0), the intrinsic growth rate (r), and the carrying capacity (K)
 
 Method:
-- plotted log population data - the resulting graph splits into 2 almost linear sections
-- the slope of the first linear section is equal to r (intrinsic growth rate)
-- the intercept of the second linear section is equal to the K (carrying capacity)
-- we know the starting population, as this was recorded at time t=0
+In order to estimate these parameters, population size was plotted against time. A semi-logarithmic plot was created with log(population size) on the y-axis and time on the x-axis. The semi-log plot separates into 2 distinct regions: an initial linear region representing exponential growth, followed by a constant plateau as the population reaches the carrying capacity. 'r' can be calculated as the slope of the linear region, while 'K' is calculated as the intercept of the constant region. N0 is simply the the population size at t=0, the first recorded data point.
 
 Results:
   - N0 = 879
