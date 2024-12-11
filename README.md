@@ -29,7 +29,7 @@ size at t = 4980 min, assuming that the population grows exponentially.
 How does it compare to the population size predicted under logistic
 growth?
 
-See R code: insert link
+See R code called "exponential_logistic_growth": insert link
 
 Exponential growth larger
 Logistic growth less - growth rate decreases as carrying capacity is reached
@@ -41,6 +41,6 @@ parameter estimates you found). Upload this graph to your repo and
 include it in the README.md file so it can be viewed in the repo
 homepage.
 
-Insert link for R code:
+Insert R code link called "exponential_logistic_growth"
 
-Graph: insert link after merging to main
+Insert graph from repository called "log scale growth.png"
