@@ -1,6 +1,7 @@
-#logistic_growth
-R scripts for a reproducible analysis of logistic growth
+logistic_growth
+version control assignment Q1-3 answers
 
+****
 1) (10 points) Annotate the README.md file in your logistic growth
 repo with more detailed information about the analysis. Add a section
 on the results and include the estimates for N0, r and K (mention
