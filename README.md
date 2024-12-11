@@ -6,19 +6,15 @@ repo with more detailed information about the analysis. Add a section
 on the results and include the estimates for N0, r and K (mention
 which *.csv file you used).
 
-- used data from experiment.csv file
-  
-- How can we model population growth in this system and make our analysis reproducible?
-  - interested in population growth of bacteria
-  - follows logistic growth model
-  - the parameters of logistic growth are N0, K and r, so working these out allow us to model growth
-  - 
+The 'experiment.csv' file contains population size data for a bacterial population in a test tube. We are interested in modelling population growth in this system, which we assume to follow logistic growth. In order to model population growth, we need the values of the parameteres: r (intrinsic growth rate), K (carrying capacity), N0 (starting population). 
 
-- What is the rate of change in the size of the population when N << K? and when N = K? how can we interpret this biologically?
+Method:
+- plotted log population data - the resulting graph splits into 2 almost linear sections
+- the slope of the first linear section is equal to r (intrinsic growth rate)
+- the intercept of the second linear section is equal to the K (carrying capacity)
+- we know the starting population, as this was recorded at time t=0
 
-- Looking at the figure, what is the carrying capacity (K) in this example? And the initial population size?
-
-- Results:
+Results:
   - N0 = 879
   - r = 1.004e-02
   - K = 6.000e+10 
