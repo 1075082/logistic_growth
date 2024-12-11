@@ -38,6 +38,7 @@ homepage.
 
 See R code: https://github.com/1075082/logistic_growth/blob/main/exponential_logistic_growth.R
 
-Insert graph from repository called "log scale growth.png"
+![image](https://github.com/user-attachments/assets/14ea1984-b0d9-46e5-a751-b9fcee95e3f1)
+
 
 ****
