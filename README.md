@@ -26,7 +26,7 @@ Using this approach, the following estimates were obtained:
 
 Under **exponential growth**, at t = 4980 min, the population size is expected to reach **4.554e+24**. Under **logistic growth**, the population is expected to grow to **6.000e+10**, reaching the carrying capacity. With exponential growth, the population grows without constraints as the model assumes unlimited resources and no environmental limitations. This results in an unrealistic prediction of population size. In reality, populations are constrained by competition over limited resources and space, which is incorporated into the logistic growth model via carrying capacity (K). K represents the maximum population size the environment can sustain - as the population approaches K, the growth rate tends towards 0, making the logistic model more realistic for describing population dynamics over time.
 
-See R code called "exponential_logistic_growth": **insert link**__
+See R code: https://github.com/1075082/logistic_growth/blob/main/exponential_logistic_growth.R
 
 ****
 
@@ -36,8 +36,9 @@ parameter estimates you found). Upload this graph to your repo and
 include it in the README.md file so it can be viewed in the repo
 homepage.
 
-Insert R code link called "exponential_logistic_growth"
+See R code: https://github.com/1075082/logistic_growth/blob/main/exponential_logistic_growth.R
 
-Insert graph from repository called "log scale growth.png"
+![image](https://github.com/user-attachments/assets/14ea1984-b0d9-46e5-a751-b9fcee95e3f1)
+
 
 ****
